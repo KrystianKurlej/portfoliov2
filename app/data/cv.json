@@ -1,0 +1,185 @@
+{
+    "pl": {
+      "experience": {
+        "id": "experience",
+        "title": "Doświadczenie",
+        "items": [
+          {
+            "title": "Agencja Interaktywna Argonium",
+            "subtitle": "Graphic Desigler",
+            "description": "Projektuję UI i UX stron internetowych, aplikacji, w tym zaawansowanych konfiguratorów online. Dodatkowo, aktywnie uczestniczę w procesie programowania aplikacji, zapewniając ich efektywną funkcjonalność i wygląd. Jestem odpowiedzialny za wdrażanie testów E2E do aplikacji. Tworzę także identyfikacje wizualne dla firm, w tym logotypy, oraz przygotowuję grafiki z przeznaczeniem do druku.",
+            "startDate": "10.2021",
+            "endDate": "obecnie"
+          },
+          {
+            "title": "Centrum Kształcenia Torus",
+            "subtitle": "Graphic Desigler",
+            "description": "Moim głównym zadaniem było projektowanie materiałów DTP, w szczególności plakatów i ulotek. Byłem również odpowiedzialny za przygotowywanie materiałów do mediów społecznościowych takich jak posty, ale również materiały wideo.",
+            "startDate": "01.2018",
+            "endDate": "09.2018"
+          }
+        ]
+      },
+      "education": {
+        "id": "education",
+        "title": "Wykształcenie",
+        "items": [
+          {
+              "title": "Informatyka Stosowana",
+              "subtitle": "Uniwersytet Ekonomiczny w Krakowie",
+              "description": "Studia drugiego stopnia, magisterskie",
+              "startDate": "10.2023",
+              "endDate": "obecnie"
+          },
+          {
+              "title": "Grafika Komputerowa i Produkcja Multimedialna",
+              "subtitle": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie",
+              "description": "Studia pierwszego stopnia, licencjackie ze specjalizacją Graphic Design",
+              "startDate": "10.2020",
+              "endDate": "07.2023"
+          }
+        ]
+      },
+      "tools": {
+          "id": "tools",
+          "title": "Narzędzia",
+          "items": [
+              "HTML, CSS, JavaScript, TypeScript",
+              "SCSS, Bootstrap, Tailwind CSS",
+              "Material Design, Human Interface",
+              "React.js, Next.js",
+              "Selenium, Cypress",
+              "Biegła znajomość pełnego pakietu Adobe  CC",
+              "Figma, Sketch",
+              "Blender, SketchUp",
+              "AutoCAD, InteriCAD, SolidWorks"
+          ]
+      },
+      "skills": {
+          "id": "skills",
+          "title": "Umiejętności",
+          "items": [
+              "Zrozumienie architektury aplikacji front-end",
+              "Korzystanie z systemu kontroli wersji Git",
+              "Pisanie testów End-to-End",
+              "Kodowanie motywów oraz wtyczek WordPress",
+              "Znajomość metodyk Agile",
+              "Projektowanie interfejsu użytkownika (UI/UX)",
+              "Prototypowanie aplikacji",
+              "Animacja 2D",
+              "Wizualizacje i animacje 3D",
+              "Tworzenie grafik przystosowanych do druku "
+          ]
+      },
+      "socialMedia": {
+          "id": "socialMedia",
+          "title": "Social Media",
+          "items": [
+              {
+                  "title": "Behance",
+                  "link": "https://www.behance.net/krystiankurlej"
+              },
+              {
+                  "title": "Github",
+                  "link": "https://github.com/KrystianKurlej"
+              },
+              {
+                  "title": "Linkedin",
+                  "link": "https://www.linkedin.com/in/krystian-kurlej-0ba001232/"
+              }
+          ]
+      }
+    },
+    "en": {
+      "experience": {
+        "id": "experience",
+        "title": "Experience",
+        "items": [
+          {
+            "title": "Argonium Interactive Agency",
+            "subtitle": "Graphic Designer",
+            "description": "I design UI & UX for websites, applications, including advanced online configurators. Additionally, I actively participate in the application programming process, ensuring their effective functionality and appearance. I am responsible for implementing E2E tests for applications. I also create visual identities for companies, including logos, and prepare graphics for printing purposes.",
+            "startDate": "10.2021",
+            "endDate": "present"
+          },
+          {
+            "title": "Torus Education Center",
+            "subtitle": "Graphic Designer",
+            "description": "My main task was to design DTP materials, especially posters and leaflets. I was also responsible for preparing materials for social media such as posts, as well as video materials.",
+            "startDate": "01.2018",
+            "endDate": "09.2018"
+          }
+        ]
+      },
+      "education": {
+        "id": "education",
+        "title": "Education",
+        "items": [
+          {
+            "title": "Applied Computer Science",
+            "subtitle": "Krakow University of Economics",
+            "description": "Second-cycle studies, master's degree",
+            "startDate": "10.2023",
+            "endDate": "present"
+          },
+          {
+            "title": "Computer Graphics and Multimedia Production",
+            "subtitle": "University of Information Technology and Management in Rzeszów",
+            "description": "First-cycle studies, bachelor's degree with a specialization in Graphic Design",
+            "startDate": "10.2020",
+            "endDate": "07.2023"
+          }
+        ]
+      },
+      "tools": {
+        "id": "tools",
+        "title": "Tools",
+        "items": [
+          "HTML, CSS, JavaScript, TypeScript",
+          "SCSS, Bootstrap, Tailwind CSS",
+          "Material Design, Human Interface",
+          "React.js, Next.js",
+          "Selenium, Cypress",
+          "Proficient knowledge of the full Adobe CC suite",
+          "Figma, Sketch",
+          "Blender, SketchUp",
+          "AutoCAD, InteriCAD, SolidWorks"
+        ]
+      },
+      "skills": {
+        "id": "skills",
+        "title": "Skills",
+        "items": [
+          "Understanding of front-end application architecture",
+          "Using Git version control system",
+          "Writing End-to-End tests",
+          "Coding WordPress themes and plugins",
+          "Knowledge of Agile methodologies",
+          "User interface (UI/UX) design",
+          "Application prototyping",
+          "2D animation",
+          "3D visualizations and animations",
+          "Creating graphics adapted for printing"
+        ]
+      },
+      "socialMedia": {
+        "id": "socialMedia",
+        "title": "Social Media",
+        "items": [
+          {
+            "title": "Behance",
+            "link": "https://www.behance.net/krystiankurlej"
+          },
+          {
+            "title": "Github",
+            "link": "https://github.com/KrystianKurlej"
+          },
+          {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/krystian-kurlej-0ba001232/"
+          }
+        ]
+      }
+    }
+}
+  

@@ -1,0 +1,62 @@
+[
+    {
+        "slug": "karnatech-strona-internetowa",
+        "title": "Strona internetowa",
+        "shortDescription": "Spersonalizowany motyw WordPress dla nowej identyfikacji wizualnej.",
+        "imgPath": "/karnatech-website-thumbnail.png",
+        "similar": [
+            {"slug": "karnatech-aplikacja-mobilna"},
+            {"slug": "eurocraft-sklep-ecommerce"}
+        ],
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Karnatech to projekt strony internetowej dla firmy specjalizującej się w różnorodnych usługach, takich jak tworzenie konstrukcji stalowych, obróbka CNC oraz cięcie laserem. Firma postanowiła zainwestować w nową identyfikację wizualną, dlatego też przestarzała już strona internetowa musiała zostać zaktualizowana."
+            },
+            {
+                "type": "figma",
+                "text": "Na podstawie dostarczonej identyfikacji wizualnej zaprojektowałem interfejs użytkownika oraz doświadczenie użytkownika dla nowej strony internetowej, dostosowane do potrzeb firmy."
+            },
+            {
+                "type": "heading",
+                "text": "Implementacja na Wordpressie"
+            },
+            {
+                "type": "paragraph",
+                "text": "Efektem mojej pracy jest nie tylko atrakcyjna strona internetowa, ale także dedykowany motyw WordPress, który idealnie odzwierciedla nową tożsamość firmy. Motyw ten pozostaje w użyciu, stanowiąc solidną podstawę dla strony internetowej firmy i przyczyniając się do utrzymania spójnego oraz profesjonalnego wizerunku online."
+            },
+            {
+                "type": "paragraph",
+                "text": "Podczas realizacji projektu szczególnie ważne było zachowanie maksymalnej prostoty w korzystaniu z systemu zarządzania treścią (CMS) strony. Z uwagi na specyfikę działalności firmy, użytkownicy nie są zaznajomieni z jego zaawansowanymi funkcjami. Dlatego też niektóre funkcjonalności, takie jak obsługa plików cookie czy zarządzanie niestandardowymi typami wpisów, zostały zaimplementowane bezpośrednio w kodzie motywu WordPressa."
+            },
+            {
+                "type": "code",
+                "codeLanguage": "php",
+                "code": "function wpb_add_cookie_notice() {\n    if (!isset($_COOKIE['cookie_notice_accepted']) || $_COOKIE['cookie_notice_accepted'] !== 'true') {\n        get_template_part('/templates/cookies-banner');\n        ?>\n        <script type=\"text/javascript\">\n            function wpb_set_cookie() {\n                document.cookie = \"cookie_notice_accepted=true; expires=<?php echo time() + 86400 * 30; ?>; path=/\";\n                var cookieNotice = document.querySelector('.cookies-banner');\n                if (cookieNotice) {\n                    cookieNotice.remove();\n                }\n            }\n\n            document.addEventListener('DOMContentLoaded', function() {\n                var cookieNotice = document.querySelector('.cookies-banner');\n                if (cookieNotice && document.cookie.indexOf('cookie_notice_accepted=true') > -1) {\n                    cookieNotice.remove();\n                }\n            });\n        </script>\n        <?php\n    }\n}\nadd_action('wp_footer', 'wpb_add_cookie_notice');\n\nfunction wpb_remove_cookie_notice() {\n    if (isset($_COOKIE['cookie_notice_accepted']) && $_COOKIE['cookie_notice_accepted'] === 'true') {\n        ?>\n        <script type=\"text/javascript\">\n            document.addEventListener('DOMContentLoaded', function() {\n                var cookieNotice = document.querySelector('.cookies-banner');\n                if (cookieNotice) {\n                    cookieNotice.remove();\n                }\n            });\n        </script>\n        <?php\n    }\n}\nadd_action('wp_enqueue_scripts', 'wpb_remove_cookie_notice');"
+            }
+        ]
+        
+    },
+    {
+        "slug": "karnatech-aplikacja-mobilna",
+        "title": "Aplikacja mobilna",
+        "shortDescription": "Aplikacja PWA, która pomogła zarządzać lokalizacją elementów.",
+        "imgPath": "/karnatech-app-thumbnail.png",
+        "similar": [
+            {"slug": "eurocraft-sklep-ecommerce"},
+            {"slug": "karnatech-strona-internetowa"}
+        ],
+        "content": []
+    },
+    {
+        "slug": "eurocraft-sklep-ecommerce",
+        "title": "Sklep internetowy",
+        "shortDescription": "Rozszerzenie działalności filmy stolarskiej o własny sklep internetowy.",
+        "imgPath": "/placeholder.png",
+        "similar": [
+            {"slug": "karnatech-aplikacja-mobilna"},
+            {"slug": "karnatech-strona-internetowa"}
+        ],
+        "content": []
+    }
+]

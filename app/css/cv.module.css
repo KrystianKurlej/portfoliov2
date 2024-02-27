@@ -1,0 +1,8 @@
+.cvTitle{
+    border-bottom: 1px solid var(--onBackgroundLowContrast);
+}
+
+.cvTitle,
+.helpText{
+    color: var(--onBackgroundLowContrast);
+}

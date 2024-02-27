@@ -1,0 +1,32 @@
+.projectCard{
+    background-color: var(--surface);
+    color: var(--onBackground);
+    box-shadow: inherit;
+    scale: 1;
+    transition-duration: 300ms;
+}
+
+.projectCard:hover{
+    scale: 1.02;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 10;
+}
+
+.projectCard:active{
+    scale: 1.005;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.projectMain{
+    background-color: var(--surface);
+}
+
+@media (min-width: 36rem){
+    .projectHeader{
+        background-color: var(--surface);
+    }
+
+    .projectMain{
+        background-color: inherit;
+    }
+}

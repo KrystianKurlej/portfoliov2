@@ -1,0 +1,28 @@
+{
+    "navigation": {
+      "title": "Krystian Kurlej",
+      "subtitle": "Portfolio",
+      "menu": [
+        {
+          "label": "CV",
+          "link": "/cv"
+        },
+        {
+          "label": "O mnie",
+          "link": "/o-mnie"
+        }
+      ]
+    },
+    "footer": {
+      "copyrights": "©2024 Krystian Kurlej",
+      "note": "Portfolio"
+    },
+    "projects": {
+      "figmaTitle": "Projekt w figmie",
+      "figmaButton": "Zobacz projekt"
+    },
+    "cv": {
+      "download": "Pobierz moje CV"
+    }
+}
+  
