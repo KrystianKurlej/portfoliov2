@@ -49,14 +49,47 @@
         "content": []
     },
     {
-        "slug": "eurocraft-sklep-ecommerce",
-        "title": "Sklep internetowy",
+        "slug": "rysowanie-grafika-komputerowa",
+        "title": "Aplikacja do rysowania",
         "shortDescription": "Rozszerzenie działalności filmy stolarskiej o własny sklep internetowy.",
-        "imgPath": "/placeholder.png",
+        "imgPath": "/rysowanie-app-thumbnail.png",
         "similar": [
             {"slug": "karnatech-aplikacja-mobilna"},
             {"slug": "karnatech-strona-internetowa"}
         ],
-        "content": []
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Moja aplikacja do rysowania jest prostym narzędziem stworzonym w ramach studenckiego projektu. Została zaprojektowana z myślą o prostocie obsługi oraz wykorzystuje ciekawe algorytmy do rysowania kształtów, obliczając je piksel po pikselu. Projekt ten stanowi jedno z wyzwań podczas studiów, które miało na celu praktyczne zastosowanie wiedzy z zakresu programowania grafiki komputerowej."
+            },
+            {
+                "type": "heading",
+                "text": "Funkcje aplikacji"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Rysowanie: Aplikacja umożliwia rysowanie przy użyciu różnych narzędzi, takich jak pędzel, linia, prostokąt i okrąg.",
+                    "Wybór koloru i rozmiaru: Użytkownik ma możliwość wyboru koloru oraz rozmiaru narzędzi do rysowania.",
+                    "Czyszczenie i pobieranie: Istnieje opcja czyszczenia całego rysunku oraz pobierania gotowego dzieła w formacie obrazu."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Wykorzystane Technologie"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "React: Aplikacja została zbudowana przy użyciu biblioteki React, co umożliwia dynamiczną interakcję i responsywność.",
+                    "Canvas API: Do renderowania obszaru do rysowania oraz implementacji algorytmów rysowania wykorzystano interfejs Canvas API.",
+                    "Algorytmy graficzne: Zaimplementowano algorytmy Bresenham'a do rysowania linii oraz algorytm rysowania okręgów."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Projekt ten nie tylko umożliwił praktyczne zastosowanie wiedzy zdobytej na studiach, ale także był doskonałą okazją do zgłębienia tematyki algorytmów graficznych oraz interakcji z interfejsem użytkownika. Pozwolił również na rozwinięcie umiejętności programowania w środowisku webowym oraz pracy z narzędziami takimi jak React."
+            }
+        ]
     }
 ]

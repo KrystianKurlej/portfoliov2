@@ -88,6 +88,20 @@ export default function Page({params}) {
 										</Button>
 									</div>
 								);
+							case "list":
+								return (
+									<ul
+										key={index}
+										className="my-2 pb-2 text-baseLarge text-balance">
+										{item.items.map((listItem, itemIndex) => {
+											return (
+												<li className="py-1 list-disc ml-5" key={itemIndex}>
+													{listItem}
+												</li>
+											);
+										})}
+									</ul>
+								);
 							case "code":
 								return (
 									<CodeBlock
