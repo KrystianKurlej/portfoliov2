@@ -25,12 +25,18 @@ const CvDownload = () => {
 				</h5>
 				<div className="relative sm:grid sm:grid-cols-2 sm:gap-10">
 					<div className="text-center mb-3 sm:mb-0">
-						<Link href="#" title="Krystian_Kurlej_CV_PL.pdf">
+						<Link
+							href="/cv/Krystian_Kurlej_CV_PL.pdf"
+							title="Krystian_Kurlej_CV_PL.pdf"
+							target="_blank">
 							<Button className="w-full">🇵🇱 Pobierz</Button>
 						</Link>
 					</div>
 					<div className="text-center">
-						<Link href="#" title="Krystian_Kurlej_CV_EN.pdf">
+						<Link
+							href="/cv/Krystian_Kurlej_CV_EN.pdf"
+							title="Krystian_Kurlej_CV_EN.pdf"
+							target="_blank">
 							<Button className="w-full">🇬🇧 Download</Button>
 						</Link>
 					</div>
