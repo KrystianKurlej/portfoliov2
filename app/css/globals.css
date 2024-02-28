@@ -85,36 +85,3 @@ body {
     content: none;
   }
 }
-
-ul{
-  list-style-type: none;
-}
-
-ul li{
-  position: relative;
-  padding: 0 0.5rem 0.5rem 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-ul li:not(:last-child)::after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: var(--onBackgroundLowContrast);
-  opacity: .5;
-}
-
-.modal-overlay{
-  background-color: var(--onBackgroundLowContrastSemiTransparent);
-}
-
-.modal{
-  background-color: var(--background);
-}
-
-.separator{
-  background-color: var(--stroke);
-}

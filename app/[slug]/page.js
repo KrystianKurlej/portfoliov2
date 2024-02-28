@@ -92,9 +92,13 @@ export default function Page({params}) {
 								return (
 									<ul
 										key={index}
-										className="my-2 pb-2 text-baseLarge text-balance">
+										className={`my-2 pb-2 text-baseLarge text-balance ${styles.list}`}>
 										{item.items.map((listItem, itemIndex) => {
-											return <li key={itemIndex}>{listItem}</li>;
+											return (
+												<li key={itemIndex} className={styles.listItem}>
+													{listItem}
+												</li>
+											);
 										})}
 									</ul>
 								);
