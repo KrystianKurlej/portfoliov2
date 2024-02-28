@@ -5,7 +5,6 @@
         "shortDescription": "Spersonalizowany motyw WordPress dla nowej identyfikacji wizualnej.",
         "imgPath": "/karnatech-website-thumbnail.png",
         "similar": [
-            {"slug": "karnatech-aplikacja-mobilna"},
             {"slug": "rysowanie-grafika-komputerowa"}
         ],
         "content": [
@@ -33,23 +32,11 @@
         
     },
     {
-        "slug": "karnatech-aplikacja-mobilna",
-        "title": "Aplikacja mobilna",
-        "shortDescription": "Aplikacja PWA, która pomogła zarządzać lokalizacją elementów.",
-        "imgPath": "/karnatech-app-thumbnail.png",
-        "similar": [
-            {"slug": "rysowanie-grafika-komputerowa"},
-            {"slug": "karnatech-strona-internetowa"}
-        ],
-        "content": []
-    },
-    {
         "slug": "rysowanie-grafika-komputerowa",
         "title": "Aplikacja do rysowania",
         "shortDescription": "Narzędzie w ramach studenckiego projektu.",
         "imgPath": "/rysowanie-app-thumbnail.png",
         "similar": [
-            {"slug": "karnatech-aplikacja-mobilna"},
             {"slug": "karnatech-strona-internetowa"}
         ],
         "content": [
