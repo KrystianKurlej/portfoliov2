@@ -4,7 +4,7 @@ const Button = ({children, className, onClick}) => {
 	return (
 		<button
 			className={`
-                h-12 md:h-10 px-6 flex items-center justify-center rounded-full
+                h-12 md:h-10 px-6 flex items-center justify-center gap-2 rounded-full
                 ${styles.btnAccent} ${className}
             `}
 			onClick={onClick}>

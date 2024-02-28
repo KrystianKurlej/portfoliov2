@@ -5,7 +5,8 @@ import dictionary from "@data/dictionary.json";
 import styles from "@css/project.module.css";
 import {ProjectCard} from "@ui/Project";
 import Button from "@ui/Button";
-import {CodeBlock} from "../ui/CodeBlock";
+import {LinkArrowIcon} from "../ui/Icons";
+import Link from "next/link";
 
 function findPost({slug}) {
 	const data = projectData.find((item) => item.slug === slug);
@@ -46,6 +47,17 @@ export default function Page({params}) {
 						<p className="text-baseLarge text-balance mb-4">
 							{data.shortDescription}
 						</p>
+						{data.projectLink && (
+							<Link
+								href={data.projectLink}
+								title={data.projectHeader}
+								target="_blank">
+								<Button className="mx-auto pr-4">
+									{dictionaryData.projectLinkButton}
+									<LinkArrowIcon />
+								</Button>
+							</Link>
+						)}
 					</div>
 					<Image
 						width={700}
@@ -56,8 +68,7 @@ export default function Page({params}) {
 					/>
 				</header>
 			</div>
-			<main
-				className={`${styles.projectMain} py-12 px-5 max-w-2xl mx-auto mb-12`}>
+			<main className={`${styles.projectMain} py-12 px-5 mb-12`}>
 				{data.content &&
 					data.content.map((item, index) => {
 						switch (item.type) {
@@ -65,34 +76,23 @@ export default function Page({params}) {
 								return (
 									<h3
 										key={index}
-										className="py-2 text-displayMedium text-balance">
+										className="max-w-2xl mx-auto py-2 text-displayMedium text-balance">
 										{item.text}
 									</h3>
 								);
 							case "paragraph":
 								return (
-									<p key={index} className="py-2 text-baseLarge text-balance">
+									<p
+										key={index}
+										className="max-w-2xl mx-auto py-2 text-baseLarge text-balance">
 										{item.text}
 									</p>
-								);
-							case "figma":
-								return (
-									<div
-										key={index}
-										className="my-2 py-8 text-baseLarge text-balance">
-										<p className="text-displayMedium text-center">
-											{dictionaryData.figmaTitle}
-										</p>
-										<Button className="mx-auto my-4">
-											{dictionaryData.figmaButton}
-										</Button>
-									</div>
 								);
 							case "list":
 								return (
 									<ul
 										key={index}
-										className={`my-2 pb-2 text-baseLarge text-balance ${styles.list}`}>
+										className={`max-w-2xl mx-auto my-2 pb-2 text-baseLarge text-balance ${styles.list}`}>
 										{item.items.map((listItem, itemIndex) => {
 											return (
 												<li key={itemIndex} className={styles.listItem}>
@@ -101,6 +101,17 @@ export default function Page({params}) {
 											);
 										})}
 									</ul>
+								);
+							case "image":
+								return (
+									<Image
+										key={index}
+										className="w-full wrapper mt-8 mb-8"
+										width={item.imgWidth}
+										height={item.imgHeight}
+										src={item.imgUrl}
+										alt={item.imgAlt}
+									/>
 								);
 							default:
 								return null;

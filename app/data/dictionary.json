@@ -18,8 +18,7 @@
       "note": "Portfolio"
     },
     "projects": {
-      "figmaTitle": "Projekt w figmie",
-      "figmaButton": "Zobacz projekt"
+      "projectLinkButton": "Zobacz projekt"
     },
     "cv": {
       "download": "Pobierz moje CV"
