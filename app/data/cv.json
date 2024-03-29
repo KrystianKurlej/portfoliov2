@@ -76,10 +76,6 @@
           "title": "Social Media",
           "items": [
               {
-                  "title": "Behance",
-                  "link": "https://www.behance.net/krystiankurlej"
-              },
-              {
                   "title": "Github",
                   "link": "https://github.com/KrystianKurlej"
               },
@@ -166,10 +162,6 @@
         "id": "socialMedia",
         "title": "Social Media",
         "items": [
-          {
-            "title": "Behance",
-            "link": "https://www.behance.net/krystiankurlej"
-          },
           {
             "title": "Github",
             "link": "https://github.com/KrystianKurlej"
