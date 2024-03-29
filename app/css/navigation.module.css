@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     background-color: var(--background);
+    z-index: 10;
 }
 
 .topNav div{
