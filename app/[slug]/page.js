@@ -119,7 +119,7 @@ export default function Page({params}) {
 					})}
 			</main>
 			<div className="wrapper">
-				<h5 className="text-displaySmall text-center my-6">Podobne projekty</h5>
+				<h5 className="text-displaySmall text-center my-6">Inne projekty</h5>
 				<div className="flex flex-col sm:grid sm:grid-cols-2 gap-3">
 					{similarProjects(findPost, data.similar)}
 				</div>
