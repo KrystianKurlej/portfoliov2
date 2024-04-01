@@ -5,6 +5,13 @@
         "title": "Doświadczenie",
         "items": [
           {
+            "title": "Karnatech",
+            "subtitle": "Web Developer, Graphic Designer",
+            "description": "Odpowiadam za realizację projektów internetowych, w tym tworzenie i obsługę stron internetowych oraz aplikacji webowych z przystosowaniem do PWA. Dodatkowo zajmuję się tworzeniem materiałów graficznych, takich jak projekty katalogów i materiały na telebimy.",
+            "startDate": "07.2022",
+            "endDate": "obecnie"
+          },
+          {
             "title": "Agencja Interaktywna Argonium",
             "subtitle": "Graphic Desigler",
             "description": "Projektuję UI i UX stron internetowych, aplikacji, w tym zaawansowanych konfiguratorów online. Dodatkowo, aktywnie uczestniczę w procesie programowania aplikacji, zapewniając ich efektywną funkcjonalność i wygląd. Jestem odpowiedzialny za testowanie do aplikacji. Tworzę także identyfikacje wizualne dla firm, w tym logotypy, oraz przygotowuję grafiki z przeznaczeniem do druku.",
@@ -91,6 +98,13 @@
         "id": "experience",
         "title": "Experience",
         "items": [
+          {
+            "title": "Karnatech",
+            "subtitle": "Web Developer, Graphic Designer",
+            "description": "I am responsible for implementing internet projects, including creating and maintaining websites and web applications adapted for PWA. Additionally, I am involved in creating graphic materials such as catalog designs and content for billboards.",
+            "startDate": "07.2022",
+            "endDate": "present"
+          },
           {
             "title": "Argonium Interactive Agency",
             "subtitle": "Graphic Designer",
