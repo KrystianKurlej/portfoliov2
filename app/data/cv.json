@@ -7,7 +7,7 @@
           {
             "title": "Karnatech",
             "subtitle": "Web Developer, Graphic Designer",
-            "description": "Odpowiadam za realizację projektów internetowych, w tym tworzenie i obsługę stron internetowych oraz aplikacji webowych z przystosowaniem do PWA. Dodatkowo zajmuję się tworzeniem materiałów graficznych, takich jak projekty katalogów i materiały na telebimy.",
+            "description": "Odpowiadam za realizację projektów internetowych, w tym tworzenie i obsługę stron internetowych oraz aplikacji webowych z przystosowaniem do PWA. Projekty realizuję z wykorzystaniem Wordpressa jako Headless CMS. Dodatkowo zajmuję się tworzeniem materiałów graficznych, takich jak projekty katalogów i materiały na telebimy.",
             "startDate": "07.2022",
             "endDate": "obecnie"
           },
@@ -34,14 +34,14 @@
           {
               "title": "Informatyka Stosowana",
               "subtitle": "Uniwersytet Ekonomiczny w Krakowie",
-              "description": "Studia drugiego stopnia, magisterskie",
+              "description": "Studia drugiego stopnia, magisterskie ze specjalizacją Systemy Inteligentne, zaoczne",
               "startDate": "10.2023",
               "endDate": "obecnie"
           },
           {
               "title": "Grafika Komputerowa i Produkcja Multimedialna",
               "subtitle": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie",
-              "description": "Studia pierwszego stopnia, licencjackie ze specjalizacją Graphic Design",
+              "description": "Studia pierwszego stopnia, licencjackie ze specjalizacją Graphic Design, dzienne",
               "startDate": "10.2020",
               "endDate": "07.2023"
           }
