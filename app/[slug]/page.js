@@ -7,6 +7,7 @@ import {ProjectCard} from "@ui/Project";
 import Button from "@ui/Button";
 import {LinkArrowIcon} from "../ui/Icons";
 import Link from "next/link";
+import ZommableImage from "./ZommableImage";
 
 function findPost({slug}) {
 	const data = projectData.find((item) => item.slug === slug);
@@ -104,9 +105,8 @@ export default function Page({params}) {
 								);
 							case "image":
 								return (
-									<Image
+									<ZommableImage
 										key={index}
-										className="w-full wrapper mt-8 mb-8"
 										width={item.imgWidth}
 										height={item.imgHeight}
 										src={item.imgUrl}

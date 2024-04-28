@@ -63,3 +63,7 @@ background-color: var(--background);
 .separator{
 background-color: var(--stroke);
 }
+
+.imageBackground{
+    background-color: var(--background);
+}
