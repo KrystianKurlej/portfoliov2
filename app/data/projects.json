@@ -1,5 +1,219 @@
 [
     {
+        "slug": "salad-haven",
+        "title": "Konfigurator sałatek",
+        "shortDescription": "Zbudowany na Vue.js z własnym API w Express",
+        "imgPath": "/salad-haven-thumbnail.png",
+        "projectLink": "https://github.com/KrystianKurlej/salad-haven",
+        "similar": [
+            {"slug": "test-stylu-przywiazania"},
+            {"slug": "rysowanie-grafika-komputerowa"}
+        ],
+        "content": [
+            {
+                "type": "heading",
+                "text": "Własne API"
+            },
+            {
+                "type": "paragraph",
+                "text": "Short description Lorem ipsum dolor sit amet consectetur. Faucibus tempus nullam at at in consequat dui vitae purus. Elit sit eu neque augue porta. Arcu ullamcorper urna volutpat ultrices tortor. Pretium interdum sit odio ante."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/API-salad-haven.png",
+                "imgWidth": 1739,
+                "imgHeight": 179,
+                "imgAlt": "Diagram połączenia Vue, Express i Firebase"
+            },
+            {
+                "type": "heading",
+                "text": "SCSS"
+            },
+            {
+                "type": "paragraph",
+                "text": "Short description Lorem ipsum dolor sit amet consectetur. Faucibus tempus nullam at at in consequat dui vitae purus. Elit sit eu neque augue porta. Arcu ullamcorper urna volutpat ultrices tortor. Pretium interdum sit odio ante."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/SCSS-salad-haven.png",
+                "imgWidth": 1739,
+                "imgHeight": 802,
+                "imgAlt": "Kod importowania plików SCSS"
+            },
+            {
+                "type": "heading",
+                "text": "Konfigurator"
+            },
+            {
+                "type": "paragraph",
+                "text": "Short description Lorem ipsum dolor sit amet consectetur. Faucibus tempus nullam at at in consequat dui vitae purus. Elit sit eu neque augue porta. Arcu ullamcorper urna volutpat ultrices tortor. Pretium interdum sit odio ante."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/konfigurator-salad-haven.png",
+                "imgWidth": 1739,
+                "imgHeight": 1251,
+                "imgAlt": "Widok konfiguracji sałatki"
+            }
+        ]
+    },
+    {
+        "slug": "test-stylu-przywiazania",
+        "title": "Test stylu przywiązania",
+        "shortDescription": "Na nowej stronie dla psycholog Sandry Laskowskiej",
+        "imgPath": "/psychesandra-thumbnail.png",
+        "projectLink": "http://karnat.vot.pl/",
+        "similar": [
+            {"slug": "karnatech-strona-internetowa"},
+            {"slug": "generator-listy-obecnosci"}
+        ],
+        "content": [
+            {
+                "type": "heading",
+                "text": "Założenia projektu"
+            },
+            {
+                "type": "paragraph",
+                "text": "Nową, istotną funkcjonalnością strony Psychesandra jest test stylu przywiązania, który użytkownicy mogą wykonać bezpośrednio na stronie. Po zakończeniu testu, wyniki są przesyłane na adres e-mail podany przez użytkownika. Projekt obejmował również migrację istniejącej strony z platformy Wix do systemu zarządzania treścią (CMS) WordPress."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/psychesandra-homepage.png",
+                "imgWidth": 1739,
+                "imgHeight": 1144,
+                "imgAlt": "Strona główna Psychesandra"
+            },
+            {
+                "type": "heading",
+                "text": "Test stylu przywiązania"
+            },
+            {
+                "type": "paragraph",
+                "text": "Test stylu przywiązania jest kluczowym narzędziem pomagającym psychologom w lepszym zrozumieniu swoich pacjentów. Na nowej stronie internetowej, test został zaimplementowany jako shortcode, który można łatwo wstawić w treść podstrony poprzez panel administracyjny. Wyniki testu są obliczane za pomocą funkcji PHP na serwerze, a następnie przesyłane użytkownikowi w wiadomości e-mail. Dodatkowo, adresy e-mail są zapisywane w panelu administracyjnym, co umożliwia ich wykorzystanie do celów marketingowych."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/psychesandra-test.png",
+                "imgWidth": 1739,
+                "imgHeight": 1144,
+                "imgAlt": "Test przywiązania"
+            },
+            {
+                "type": "heading",
+                "text": "Przeniesienie strony na WordPress"
+            },
+            {
+                "type": "paragraph",
+                "text": "Migracja strony z Wix do WordPress była kluczowym elementem projektu, mającym na celu zwiększenie elastyczności i możliwości dalszego rozwoju witryny. Dzięki temu możliwe było dodanie zaawansowanych funkcji, takich jak test stylu przywiązania, oraz łatwiejsze zarządzanie treścią i integracjami z innymi narzędziami marketingowymi."
+            }
+        ]
+    },
+    {
+        "slug": "karnatech-strona-internetowa",
+        "title": "Strona internetowa",
+        "shortDescription": "Spersonalizowany motyw WordPress dla nowej identyfikacji wizualnej.",
+        "imgPath": "/karnatech-website-thumbnail.png",
+        "projectLink": "https://karnatech.pl/",
+        "similar": [
+            {"slug": "test-stylu-przywiazania"},
+            {"slug": "generator-listy-obecnosci"}
+        ],
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Karnatech to projekt strony internetowej dla firmy specjalizującej się w różnorodnych usługach, takich jak tworzenie konstrukcji stalowych, obróbka CNC oraz cięcie laserem. Firma postanowiła zainwestować w nową identyfikację wizualną, dlatego też przestarzała już strona internetowa musiała zostać zaktualizowana."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/karnatech_figma.png",
+                "imgWidth": 1739,
+                "imgHeight": 812,
+                "imgAlt": "Figma"
+            },
+            {
+                "type": "heading",
+                "text": "Implementacja na Wordpressie"
+            },
+            {
+                "type": "paragraph",
+                "text": "Efektem mojej pracy jest nie tylko atrakcyjna strona internetowa, ale także dedykowany motyw WordPress, który idealnie odzwierciedla nową tożsamość firmy. Motyw ten pozostaje w użyciu, stanowiąc solidną podstawę dla strony internetowej firmy i przyczyniając się do utrzymania spójnego oraz profesjonalnego wizerunku online."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/karnatech_admin.png",
+                "imgWidth": 1777,
+                "imgHeight": 1174,
+                "imgAlt": "Admin"
+            },
+            {
+                "type": "paragraph",
+                "text": "Podczas realizacji projektu szczególnie ważne było zachowanie maksymalnej prostoty w korzystaniu z systemu zarządzania treścią (CMS) strony. Z uwagi na specyfikę działalności firmy, użytkownicy nie są zaznajomieni z jego zaawansowanymi funkcjami. Dlatego też niektóre funkcjonalności, takie jak obsługa plików cookie czy zarządzanie niestandardowymi typami wpisów, zostały zaimplementowane bezpośrednio w kodzie motywu WordPressa."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/karnatech_cookies.png",
+                "imgWidth": 1487,
+                "imgHeight": 1032,
+                "imgAlt": "Cookies"
+            }
+        ]  
+    },
+    {
+        "slug": "generator-listy-obecnosci",
+        "title": "Generator arkusza obecności",
+        "shortDescription": "Narzędzie do generowania plików Excel",
+        "imgPath": "/generator-excela-thumbnail.png",
+        "projectLink": "https://github.com/KrystianKurlej/Excel-Generator",
+        "similar": [
+            {"slug": "karnatech-strona-internetowa"},
+            {"slug": "rysowanie-grafika-komputerowa"}
+        ],
+        "content": [
+            {
+                "type": "heading",
+                "text": "Usprawnienie Procesu"
+            },
+            {
+                "type": "paragraph",
+                "text": "Problemem, który próbuje rozwiązać program, jest konieczność regularnego tworzenia plików Excela z usuniętymi weekendami oraz aktualną listą uczestników ośrodka. Poprzez zautomatyzowanie tego procesu, program ma za zadanie znacznie ułatwić i przyspieszyć pracę związaną z tym zadaniem."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/generator-excela-tabela.png",
+                "imgWidth": 1777,
+                "imgHeight": 501,
+                "imgAlt": "Przykład tabeli"
+            },
+            {
+                "type": "heading",
+                "text": "Rozwiązanie"
+            },
+            {
+                "type": "paragraph",
+                "text": "Program umożliwia generowanie plików Excela, które zawierają kolumny z dniami roboczymi w wybranym miesiącu oraz wiersze z danymi uczestników. Każda kolumna oraz wiersz zawiera komórkę sumującą obecności, oznaczone przez 'x'."
+            },
+            {
+                "type": "paragraph",
+                "text": "Program pozwala również na dodanie nowych i usunięcie uczestników z listy."
+            },
+            {
+                "type": "image",
+                "imgUrl": "/generowanie-excela-terminal.png",
+                "imgWidth": 1777,
+                "imgHeight": 2182,
+                "imgAlt": "Obsługa programu"
+            },
+            {
+                "type": "heading",
+                "text": "Wykorzystane Technologie"
+            },
+            {
+                "type": "paragraph",
+                "text": "Program został napisany w języku Python, który wykorzystuje bibliotekę openpyxl do obsługi plików Excela. Dane uczestników są przechowywane w plikach JSON. Dzięki temu możemy łatwo podmieniać listę uczestników i modyfikować te dane."
+            }
+        ]
+    },
+    {
         "slug": "rysowanie-grafika-komputerowa",
         "title": "Aplikacja do rysowania",
         "shortDescription": "Narzędzie w ramach studenckiego projektu.",
@@ -55,112 +269,6 @@
             {
                 "type": "paragraph",
                 "text": "Projekt ten nie tylko umożliwił praktyczne zastosowanie wiedzy zdobytej na studiach, ale także był doskonałą okazją do zgłębienia tematyki algorytmów graficznych oraz interakcji z interfejsem użytkownika. Pozwolił również na rozwinięcie umiejętności programowania w środowisku webowym oraz pracy z narzędziami takimi jak React."
-            }
-        ]
-    },
-    {
-        "slug": "karnatech-strona-internetowa",
-        "title": "Strona internetowa",
-        "shortDescription": "Spersonalizowany motyw WordPress dla nowej identyfikacji wizualnej.",
-        "imgPath": "/karnatech-website-thumbnail.png",
-        "projectLink": "https://karnatech.pl/",
-        "similar": [
-            {"slug": "rysowanie-grafika-komputerowa"},
-            {"slug": "generator-listy-obecnosci"}
-        ],
-        "content": [
-            {
-                "type": "paragraph",
-                "text": "Karnatech to projekt strony internetowej dla firmy specjalizującej się w różnorodnych usługach, takich jak tworzenie konstrukcji stalowych, obróbka CNC oraz cięcie laserem. Firma postanowiła zainwestować w nową identyfikację wizualną, dlatego też przestarzała już strona internetowa musiała zostać zaktualizowana."
-            },
-            {
-                "type": "image",
-                "imgUrl": "/karnatech_figma.png",
-                "imgWidth": 1739,
-                "imgHeight": 812,
-                "imgAlt": "Figma"
-            },
-            {
-                "type": "heading",
-                "text": "Implementacja na Wordpressie"
-            },
-            {
-                "type": "paragraph",
-                "text": "Efektem mojej pracy jest nie tylko atrakcyjna strona internetowa, ale także dedykowany motyw WordPress, który idealnie odzwierciedla nową tożsamość firmy. Motyw ten pozostaje w użyciu, stanowiąc solidną podstawę dla strony internetowej firmy i przyczyniając się do utrzymania spójnego oraz profesjonalnego wizerunku online."
-            },
-            {
-                "type": "image",
-                "imgUrl": "/karnatech_admin.png",
-                "imgWidth": 1777,
-                "imgHeight": 1174,
-                "imgAlt": "Admin"
-            },
-            {
-                "type": "paragraph",
-                "text": "Podczas realizacji projektu szczególnie ważne było zachowanie maksymalnej prostoty w korzystaniu z systemu zarządzania treścią (CMS) strony. Z uwagi na specyfikę działalności firmy, użytkownicy nie są zaznajomieni z jego zaawansowanymi funkcjami. Dlatego też niektóre funkcjonalności, takie jak obsługa plików cookie czy zarządzanie niestandardowymi typami wpisów, zostały zaimplementowane bezpośrednio w kodzie motywu WordPressa."
-            },
-            {
-                "type": "image",
-                "imgUrl": "/karnatech_cookies.png",
-                "imgWidth": 1487,
-                "imgHeight": 1032,
-                "imgAlt": "Cookies"
-            }
-        ]
-        
-    },
-    {
-        "slug": "generator-listy-obecnosci",
-        "title": "Generator arkusza obecności",
-        "shortDescription": "Narzędzie do generowania plików Excel",
-        "imgPath": "/generator-excela-thumbnail.png",
-        "projectLink": "https://github.com/KrystianKurlej/Excel-Generator",
-        "similar": [
-            {"slug": "karnatech-strona-internetowa"},
-            {"slug": "rysowanie-grafika-komputerowa"}
-        ],
-        "content": [
-            {
-                "type": "heading",
-                "text": "Usprawnienie Procesu"
-            },
-            {
-                "type": "paragraph",
-                "text": "Problemem, który próbuje rozwiązać program, jest konieczność regularnego tworzenia plików Excela z usuniętymi weekendami oraz aktualną listą uczestników ośrodka. Poprzez zautomatyzowanie tego procesu, program ma za zadanie znacznie ułatwić i przyspieszyć pracę związaną z tym zadaniem."
-            },
-            {
-                "type": "image",
-                "imgUrl": "/generator-excela-tabela.png",
-                "imgWidth": 1777,
-                "imgHeight": 501,
-                "imgAlt": "Przykład tabeli"
-            },
-            {
-                "type": "heading",
-                "text": "Rozwiązanie"
-            },
-            {
-                "type": "paragraph",
-                "text": "Program umożliwia generowanie plików Excela, które zawierają kolumny z dniami roboczymi w wybranym miesiącu oraz wiersze z danymi uczestników. Każda kolumna oraz wiersz zawiera komórkę sumującą obecności, oznaczone przez 'x'."
-            },
-            {
-                "type": "paragraph",
-                "text": "Program pozwala również na dodanie nowych i usunięcie uczestników z listy."
-            },
-            {
-                "type": "image",
-                "imgUrl": "/generowanie-excela-terminal.png",
-                "imgWidth": 1777,
-                "imgHeight": 2182,
-                "imgAlt": "Obsługa programu"
-            },
-            {
-                "type": "heading",
-                "text": "Wykorzystane Technologie"
-            },
-            {
-                "type": "paragraph",
-                "text": "Program został napisany w języku Python, który wykorzystuje bibliotekę openpyxl do obsługi plików Excela. Dane uczestników są przechowywane w plikach JSON. Dzięki temu możemy łatwo podmieniać listę uczestników i modyfikować te dane."
             }
         ]
     }
