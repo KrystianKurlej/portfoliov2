@@ -9,7 +9,7 @@
 .projectCard:hover{
     scale: 1.02;
     box-shadow: rgba(83, 83, 83, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    z-index: 10;
+    z-index: 9;
 }
 
 .projectCard:active{
