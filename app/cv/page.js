@@ -42,10 +42,10 @@ const CurriculumVitae = () => {
 									end={item.endDate}
 								/>
 							))}
-						<ul className="md:grid md:grid-cols-2 mt-3 mb-5 text-baseMedium">
+						<ul className="md:grid md:grid-cols-2 md:gap-x-2 mt-3 mb-5 text-baseMedium text-balance">
 							{(category.id === "tools" || category.id === "skills") &&
 								category.items.map((item, itemIndex) => (
-									<li key={itemIndex}>{item}</li>
+									<li key={itemIndex} className="mb-2 mr-2">{item}</li>
 								))}
 						</ul>
 						<ul className="flex gap-6 mt-3 mb-5 text-baseLarge">

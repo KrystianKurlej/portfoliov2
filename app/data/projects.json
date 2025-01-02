@@ -62,7 +62,7 @@
         "title": "Test stylu przywiązania",
         "shortDescription": "Na nowej stronie dla psycholog Sandry Laskowskiej",
         "imgPath": "/psychesandra-thumbnail.png",
-        "projectLink": "http://karnat.vot.pl/",
+        "projectLink": "https://psychesandra.com/",
         "similar": [
             {"slug": "karnatech-strona-internetowa"},
             {"slug": "generator-listy-obecnosci"}

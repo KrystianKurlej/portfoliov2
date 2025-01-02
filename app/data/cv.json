@@ -5,6 +5,13 @@
         "title": "Doświadczenie",
         "items": [
           {
+            "title": "Agencja Interaktywna Argonium",
+            "subtitle": "Front-End Developer",
+            "description": "Odpowiadam za rozwój i optymalizację frontendu stron oraz aplikacji internetowych. Pracuję głównie w środowisku opartym na PHP Smarty, jQuery, HTML i SCSS, gdzie wdrażam funkcjonalności zgodne z zasadami DRY oraz optymalizuję kod pod kątem wydajności i łatwości utrzymania. Zajmuję się również refaktoryzacją projektów, w tym przejściem na nowsze technologie, takie jak Latte i Vue.js, aby zapewnić długoterminową skalowalność i nowoczesne rozwiązania. Dodatkowo implementuję zaawansowane animacje oraz dbam o poprawność semantyki HTML, wspierając SEO i dostępność.",
+            "startDate": "07.2024",
+            "endDate": "obecnie"
+          },
+          {
             "title": "Karnatech",
             "subtitle": "Web Developer, Graphic Designer",
             "description": "Odpowiadam za realizację projektów internetowych, w tym tworzenie i obsługę stron internetowych oraz aplikacji webowych z przystosowaniem do PWA. Projekty realizuję z wykorzystaniem Wordpressa jako Headless CMS. Dodatkowo zajmuję się tworzeniem materiałów graficznych, takich jak projekty katalogów i materiały na telebimy.",
@@ -53,29 +60,30 @@
           "items": [
               "HTML, CSS, JavaScript, TypeScript",
               "SCSS, Bootstrap, Tailwind CSS",
-              "Material Design, Human Interface",
-              "React.js, Next.js",
+              "Material Design, Human Interface, Radix UI",
+              "React.js, Vue.js, Next.js",
               "Selenium, Cypress",
-              "Biegła znajomość pełnego pakietu Adobe  CC",
-              "Figma, Sketch",
-              "Blender, SketchUp",
-              "AutoCAD, InteriCAD, SolidWorks"
+              "Biegła znajomość pełnego pakietu Adobe CC",
+              "Figma (komponenty, auto-layout, systemy projektowe), Sketch",
+              "Blender (modelowanie, teksturowanie), SketchUp",
+              "AutoCAD, InteriCAD, SolidWorks",
+              "Docker, Postman"
           ]
       },
       "skills": {
           "id": "skills",
           "title": "Umiejętności",
           "items": [
-              "Zrozumienie architektury aplikacji front-end",
-              "Korzystanie z systemu kontroli wersji Git",
-              "Pisanie testów End-to-End",
-              "Kodowanie motywów oraz wtyczek WordPress",
-              "Znajomość metodyk Agile",
-              "Projektowanie interfejsu użytkownika (UI/UX)",
-              "Prototypowanie aplikacji",
-              "Animacja 2D",
-              "Wizualizacje i animacje 3D",
-              "Tworzenie grafik przystosowanych do druku "
+              "Zrozumienie architektury aplikacji front-end i integracji z API",
+              "Korzystanie z systemu kontroli wersji Git oraz CI/CD",
+              "Tworzenie i optymalizacja kodu zgodnego z zasadami DRY i SOLID",
+              "Pisanie testów End-to-End i jednostkowych (Selenium, Cypress)",
+              "Projektowanie interfejsu użytkownika (UI/UX) i prototypowanie aplikacji",
+              "Kodowanie motywów oraz wtyczek WordPress (w tym Headless CMS)",
+              "Znajomość metodyk Agile oraz współpraca w zespołach Scrum",
+              "Implementacja zaawansowanych animacji 2D (np. Locomotive Scroll, GSAP)",
+              "Wizualizacje i animacje 3D (Blender, SketchUp)",
+              "Tworzenie grafik przystosowanych do druku (DTP i branding)"
           ]
       },
       "socialMedia": {
@@ -88,7 +96,7 @@
               },
               {
                   "title": "Linkedin",
-                  "link": "https://www.linkedin.com/in/krystian-kurlej-0ba001232/"
+                  "link": "https://www.linkedin.com/in/krystian-kurlej/"
               }
           ]
       }
