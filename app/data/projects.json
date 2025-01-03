@@ -62,7 +62,45 @@
         "disabled": true,
         "slug": "wycena-projektow",
         "title": "Wycena projektów",
-        "shortDescription": "Zarządzanie czasem pracy, wygodne dla klientów i pracowników."
+        "shortDescription": "Zarządzanie czasem pracy, wygodne dla klientów i pracowników.",
+        "similar": [
+            {"slug": "test-stylu-przywiazania"},
+            {"slug": "rysowanie-grafika-komputerowa"}
+        ],
+        "content": [
+            {
+            "type": "heading",
+            "text": "Opis projektu"
+            },
+            {
+            "type": "paragraph",
+            "text": "Time Tracker to aplikacja stworzona z myślą o lepszym zarządzaniu czasem projektów oraz rozliczaniu się z klientami. Dzięki integracji z Firebase umożliwia łatwe logowanie przez Google oraz przechowywanie danych w bezpieczny sposób. Kluczowym elementem aplikacji jest funkcjonalność start/stop, która pozwala precyzyjnie mierzyć czas poświęcony na poszczególne projekty. Każdy klient ma przypisane projekty, a aplikacja umożliwia ustawienie stawki godzinowej, dzięki czemu automatycznie oblicza koszty."
+            },
+            {
+            "type": "heading",
+            "text": "Publiczne raporty"
+            },
+            {
+            "type": "paragraph",
+            "text": "Raporty generowane przez aplikację dostępne są pod publicznymi linkami, dzięki czemu klient nie musi logować się, aby zobaczyć podsumowanie projektu. Raport zawiera informacje o czasie pracy oraz kosztach, co pozwala na szybkie i przejrzyste rozliczenie."
+            },
+            {
+            "type": "heading",
+            "text": "Wydajne UI z ShadCN"
+            },
+            {
+            "type": "paragraph",
+            "text": "Interfejs aplikacji został zbudowany z wykorzystaniem ShadCN, co pozwoliło na szybkie stworzenie intuicyjnego i estetycznego UI bez tracenia czasu na projektowanie od podstaw. Użytkownicy mogą w łatwy sposób nawigować po aplikacji i zarządzać swoimi projektami."
+            },
+            {
+            "type": "heading",
+            "text": "Technologie"
+            },
+            {
+            "type": "paragraph",
+            "text": "Aplikacja została stworzona w Next.js 15 i korzysta z Firebase do uwierzytelniania oraz przechowywania danych. Dzięki wykorzystaniu ShadCN proces tworzenia UI był szybki i efektywny, a całość działa w środowisku, które zapewnia skalowalność i elastyczność."
+            }
+        ]
     },
     {
         "slug": "test-stylu-przywiazania",
