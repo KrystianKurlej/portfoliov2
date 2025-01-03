@@ -11,6 +11,7 @@ export default function Home() {
 					title={item.title}
 					shortDescription={item.shortDescription}
 					imgPath={item.imgPath}
+					disabled={item.disabled}
 				/>
 			))}
 		</main>

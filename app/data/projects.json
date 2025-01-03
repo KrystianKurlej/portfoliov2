@@ -1,5 +1,6 @@
 [
     {
+        "disabled": true,
         "slug": "salad-haven",
         "title": "Konfigurator sałatek",
         "shortDescription": "Zbudowany na Vue.js z własnym API w Express",
@@ -56,6 +57,12 @@
                 "imgAlt": "Widok konfiguracji sałatki"
             }
         ]
+    },
+    {
+        "disabled": true,
+        "slug": "wycena-projektow",
+        "title": "Wycena projektów",
+        "shortDescription": "Zarządzanie czasem pracy, wygodne dla klientów i pracowników."
     },
     {
         "slug": "test-stylu-przywiazania",

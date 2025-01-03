@@ -25,6 +25,7 @@ function similarProjects(findPostFunction, similarProjects) {
 				title={data.title}
 				shortDescription={data.shortDescription}
 				imgPath={data.imgPath}
+				disabled={data.disabled}
 			/>
 		);
 	});
