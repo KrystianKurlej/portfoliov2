@@ -2,14 +2,12 @@
     background-color: var(--surface);
     color: var(--onBackground);
     box-shadow: inherit;
-    scale: 1;
+    border: 2px solid var(--surface);
     transition-duration: 300ms;
 }
 
 .projectCard:hover{
-    scale: 1.02;
-    box-shadow: rgba(83, 83, 83, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    z-index: 9;
+    background-color: var(--background);
 }
 
 .projectCard:active{
